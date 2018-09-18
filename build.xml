@@ -54,4 +54,6 @@
     </delete>
     <echo message="clean done" />
   </target>
+  
+  <target name="main" depends="clean,run,test" />
 </project>
