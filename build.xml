@@ -70,5 +70,5 @@
     nbproject/build-impl.xml file. 
 
     -->
-    <target name="main" depends="clean,run"/>
+    <target name="main" depends="clean,run,test"/>
 </project>
